@@ -1,0 +1,32 @@
+#--IE driver--!
+driver_path_IE=./Drivers/IEDriverServer.exe
+driver_value_IE=webdriver.ie.driver
+browser_name_IE=IE
+
+#--Chrome driver--!
+driver_path_chrome=./Drivers/chromedriver.exe
+driver_value_chrome=webdriver.chrome.driver
+browser_name_chrome=Chrome
+
+#--Login Information--!
+url =https://accounts.google.com/
+username =ajay.budsoftware
+password =Bud@2017
+
+#---Web Elements of Login Page---!
+login_username =//*[@id='Email']
+login_next=//*[@id='next']
+findMyAcc=//*[contains(text(),'Find my account')]
+errorMsg=//*[@id='errormsg_0_Email']
+staySignedIn=//*[@id='PersistentCookie']
+forgotPassword=//*[@id='link-forgot-passwd']
+login_password =//*[@id='Passwd']
+login_signIn =//*[@id='signIn']
+signInWithDiffAcc=//a[contains(text(),'Sign in with a different account')]
+
+#---Web Elements of Gmail Home Page---!
+myAccount =My Account
+mailLink =//div[@class='vmZ0T']/a[2]
+homePageTitle =ajay.budsoftware@gmail.com - Gmail
+googleAccount =//*[@class='gb_b gb_eb gb_R']
+signOut=//a[text()='Sign out']

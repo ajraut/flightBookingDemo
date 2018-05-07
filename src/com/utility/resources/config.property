@@ -1,0 +1,66 @@
+#--IE driver--!
+driver_path_IE=./Drivers/IEDriverServer.exe
+driver_value_IE=webdriver.ie.driver
+browser_name_IE=IE
+
+#--Chrome driver--!
+driver_path_chrome=./Drivers/chromedriver.exe
+driver_value_chrome=webdriver.chrome.driver
+browser_name_chrome=Chrome
+
+#--Login Information--!
+url =<Application URL>
+
+#--Excel - Sheet Names --#
+testDataPath=.\\TestData\\SarBoxData.xlsx
+horizontalMenuSheet=HorizontalMenu
+bookMarkSheet=BookMark
+helpOptionSheet=HelpOption
+
+#---Web Elements of SarBox - Access Site---!
+home=(//*[@id='topRibbon']//following::span[text()='Home'])[3]
+welcomeMsg=//*[contains(text(),'Welcome to the SarbOx Portal')]
+horizontalMenu=//*[@id='topRibbon']//li
+minmaxRibin=//div[@class='rrbToggleHandle']
+grc=//*[@id='topbanner_ddlContext_Input']
+signedInUser=Ajay Sopan Raut
+topRightIcon1=(//*[@id='topbanner_RadMenuBanner']//img[@class='rmLeftImage'])[1]
+userName=(//*[@id='topbanner_RadMenuBanner']//span[@class='rmText'])[1]
+topRightIcon2=(//*[@id='topbanner_RadMenuBanner']//img[@class='rmLeftImage'])[3]
+bookMarkValue=(//*[@id='topbanner_RadMenuBanner']//li)[3]//li
+topRightIcon3=(//*[@id='topbanner_RadMenuBanner']//img[@class='rmLeftImage'])[6]
+helpMenu=(//*[@id='topbanner_RadMenuBanner']//li)[6]//li
+logOffButton=(//*[@id='topbanner_RadMenuBanner']//img[@class='rmLeftImage'])[15]
+
+#---Web Elements of SarBox - My Favorites---!
+favoritesAndActionItems=//*[@id='RAD_SLIDING_PANE_TAB_SlidingPaneFav']
+favoriteOptions=//*[@id='PAPPanelBar']/ul/li
+organization=//*[text()='Organization']
+orgOptions=(//*[@class='rrbControlGroup rrbAbox'])[5]/a
+dataTransfer=(//*[@class='rrbControlGroup rrbAbox'])[6]/a
+modelPageColumn=//*[@class='DataGridHeaderStyle']/td
+addToMyFav=//*[text()='Add To My Favorites']
+#---MyFav Page---!
+nameOfFav=//*[@id='lblFavoriteNameAdd']
+enterFavName=//*[@id='txtName']
+chooseFolder=//*[@id='lblFolderAdd']
+submitButton=//*[@id='hlsubmit']
+cancelButton=//*[@id='hlcancel']
+copyButton=//*[@id='btnCopy']
+showUrlButton=//*[@id='btnShowURL']
+#---End----!
+addNewFolder=//*[@id='PAPPanelBar_i0_i0_addfolder']
+editOptions=//*[@id='PAPPanelBar_i0_i0_radTreeFav_menuFolder_detached']/ul/li
+
+
+
+
+
+
+
+
+
+
+
+
+
