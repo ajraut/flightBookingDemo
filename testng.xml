@@ -2,9 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test name="Test">
-   <parameter name="browser" value="IE"></parameter> 
+   <parameter name="browser" value="Chrome"></parameter> 
     <classes>
-      <class name="com.tests.accessSiteTest"/>
+      <class name="com.tests.LoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

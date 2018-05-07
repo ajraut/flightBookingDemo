@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <parameter name="browser" value="IE"/>
+  <parameter name="browser" value="Chrome"/>
   <test name="Test">
-    <parameter name="browser" value="IE"/>
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="com.tests.accessSiteTest"/>
+      <class name="com.tests.LoginTest"/>
     </classes>
   </test> <!-- Test -->
-  <test name="Test(failed)">
-    <parameter name="browser" value="IE"/>
-    <classes>
-      <class name="com.tests.accessSiteTest">
-        <methods>
-          <include name="sarBoxHomePageRibinOption"/>
-          <include name="verifyHelpIconOption"/>
-          <include name="beforeTest"/>
-          <include name="tearDown"/>
-          <include name="testLogin"/>
-          <include name="verifyBookMarkIconOption"/>
-          <include name="initiateBrowser"/>
-        </methods>
-      </class> <!-- com.tests.accessSiteTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
