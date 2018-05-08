@@ -7,6 +7,7 @@
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.5.1</version>
         <configuration>
@@ -15,12 +16,15 @@
         </configuration>
       </plugin>
     <plugin>
-  <artifactId>maven-surefire-plugin</artifactId>
-  <version>2.21.0</version>
-   <configuration>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
-            <skipTest>false</skipTest>
-      </configuration>
+    <groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-surefire-plugin</artifactId>
+		<version>2.19.1</version>
+			<configuration>
+				<suiteXmlFiles>
+				<!-- TestNG suite XML files -->
+					<suiteXmlFile>testng.xml</suiteXmlFile>
+				</suiteXmlFiles>
+			</configuration>
      </plugin>
    </plugins>
   </build>
