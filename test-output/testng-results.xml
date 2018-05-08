@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22593" started-at="2018-05-07T19:08:28Z" finished-at="2018-05-07T19:08:50Z">
+  <suite name="Suite" duration-ms="28764" started-at="2018-05-08T09:57:27Z" finished-at="2018-05-08T09:57:56Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22593" started-at="2018-05-07T19:08:28Z" finished-at="2018-05-07T19:08:50Z">
+    <test name="Test" duration-ms="28764" started-at="2018-05-08T09:57:27Z" finished-at="2018-05-08T09:57:56Z">
       <class name="com.tests.LoginTest">
-        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:com.tests.LoginTest@6093dd95]" name="initiateBrowser" is-config="true" duration-ms="13112" started-at="2018-05-08T00:38:28Z" finished-at="2018-05-08T00:38:41Z">
+        <test-method status="PASS" signature="initiateBrowser(java.lang.String)[pri:0, instance:com.tests.LoginTest@6093dd95]" name="initiateBrowser" is-config="true" duration-ms="17418" started-at="2018-05-08T15:27:27Z" finished-at="2018-05-08T15:27:45Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateBrowser -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="testLogin" duration-ms="5107" started-at="2018-05-08T00:38:41Z" finished-at="2018-05-08T00:38:46Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="testLogin" duration-ms="5302" started-at="2018-05-08T15:27:45Z" finished-at="2018-05-08T15:27:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@6093dd95]" name="tearDown" is-config="true" duration-ms="1475" started-at="2018-05-08T00:38:46Z" finished-at="2018-05-08T00:38:47Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.tests.LoginTest@6093dd95]" name="tearDown" is-config="true" duration-ms="1962" started-at="2018-05-08T15:27:50Z" finished-at="2018-05-08T15:27:52Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="afterTest" is-config="true" duration-ms="2843" started-at="2018-05-08T00:38:47Z" finished-at="2018-05-08T00:38:50Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tests.LoginTest@6093dd95]" name="afterTest" is-config="true" duration-ms="4031" started-at="2018-05-08T15:27:52Z" finished-at="2018-05-08T15:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
